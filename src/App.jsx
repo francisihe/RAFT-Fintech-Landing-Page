@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      Page Working
+      <h1>Page Working</h1>
     </>
   )
 }
