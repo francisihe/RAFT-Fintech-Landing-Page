@@ -1,5 +1,5 @@
 import logo from '../assets/logos/Raft-logo-small.svg'
-import GetStartedSmall from './buttons/GetStartedSmall'
+import GetStartedSmall from '../components/buttons/GetStartedSmall'
 
 const NavBar = () => {
   return (
