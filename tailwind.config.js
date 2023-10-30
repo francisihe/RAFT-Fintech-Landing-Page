@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'custom-green': '#2B892E',
+        'custom-green-2': '#48D64C',
         'custom-black': '#070606',
         'custom-offwhite': '#BDBDBD',
         'custom-border-black': '#3D3D3D',

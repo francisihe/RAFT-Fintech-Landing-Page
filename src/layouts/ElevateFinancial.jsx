@@ -20,7 +20,7 @@ const ElevateFinancial = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="max-w-screen-lg lg:max-w-screen-2xl px-14 mx-auto">
                 <ElevateCards1 />
                 <ElevateCards2 />
             </div>

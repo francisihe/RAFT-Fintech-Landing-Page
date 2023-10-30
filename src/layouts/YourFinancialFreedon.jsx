@@ -24,7 +24,7 @@ const YourFinancialFreedon = () => {
             </div>
 
             <div className='flex justify-center gap-4 py-4 md:px-14 max-w-screen lg:max-w-screen lg:px-80 mx-auto'>
-                <div>
+                <div className='w-1/3'>
                     <div className='flex gap-2 pb-1'>
                         <svg width="18" height="18" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M11 5C9.75736 5 8.75 6.00736 8.75 7.25C8.75 8.49264 9.75736 9.5 11 9.5C12.2426 9.5 13.25 8.49264 13.25 7.25C13.25 6.00736 12.2426 5 11 5Z" fill="white" />
@@ -33,10 +33,10 @@ const YourFinancialFreedon = () => {
                         </svg>
                         <p className='text-white font-bold'>No minimum balance fees</p>
                     </div>
-                    <p className='text-white text-xs'>Say goodbye to minimum balance fees. Your account, your balance—no hidden charges</p>
+                    <p className='text-white text-xs'>Say goodbye to minimum balance fees. Your account, your balance—no hidden charges </p>
                 </div>
 
-                <div>
+                <div className='w-1/3'>
                     <div className='flex gap-2 pb-1'>
                         <svg width="18" height="16" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M18 4.875C18 7.56739 13.9706 9.75 9 9.75C4.02944 9.75 0 7.56739 0 4.875C0 2.18261 4.02944 0 9 0C13.9706 0 18 2.18261 18 4.875Z" fill="white" />
@@ -50,7 +50,7 @@ const YourFinancialFreedon = () => {
                     <p className='text-white text-xs'>Bank with us without worrying about monthly fees. Keep more of your money where it belongs—in your account</p>
                 </div>
 
-                <div>
+                <div className='w-1/3'>
                     <div className='flex gap-2 pb-1'>
                         <svg width="18" height="20" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9697 2.96967C16.2626 2.67678 16.7374 2.67678 17.0303 2.96967L21.5303 7.46967C21.671 7.61032 21.75 7.80109 21.75 8C21.75 8.19891 21.671 8.38968 21.5303 8.53033L17.0303 13.0303C16.7374 13.3232 16.2626 13.3232 15.9697 13.0303C15.6768 12.7374 15.6768 12.2626 15.9697 11.9697L19.1893 8.75L7.5 8.75C7.08579 8.75 6.75 8.41421 6.75 8C6.75 7.58579 7.08579 7.25 7.5 7.25L19.1893 7.25L15.9697 4.03033C15.6768 3.73744 15.6768 3.26256 15.9697 2.96967ZM8.03033 11.9697C8.32322 12.2626 8.32322 12.7374 8.03033 13.0303L4.81066 16.25H16.5C16.9142 16.25 17.25 16.5858 17.25 17C17.25 17.4142 16.9142 17.75 16.5 17.75H4.81066L8.03033 20.9697C8.32322 21.2626 8.32322 21.7374 8.03033 22.0303C7.73744 22.3232 7.26256 22.3232 6.96967 22.0303L2.46967 17.5303C2.17678 17.2374 2.17678 16.7626 2.46967 16.4697L6.96967 11.9697C7.26256 11.6768 7.73744 11.6768 8.03033 11.9697Z" fill="white" />
