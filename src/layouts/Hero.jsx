@@ -6,15 +6,15 @@ import FeaturedBox from "../components/ui/FeaturedBox"
 const Hero = () => {
     return (
         <div>
-            <div className="mx-auto my-16 text-center max-w-2xl">
+            <div className="mx-auto my-20 text-center max-w-2xl lg:max-w-4xl">
                 <HeroTransparentButton />
                 <div className="my-4">
-                    <h1 className="text-white tracking-wider text-6xl">
+                    <h1 className="text-white tracking-wider text-6xl lg:text-8xl">
                         Building the future of banking.
                     </h1>
                 </div>
                 <div className="m-auto my-4 max-w-sm">
-                    <p className="text-custom-offwhite">
+                    <p className="text-custom-offwhite lg:text-lg">
                         Experience the future of banking with RAFT.
                         We're here to empower your financial journey.
                     </p>
@@ -30,7 +30,9 @@ const Hero = () => {
                 />
             </div>
 
-            <FeaturedBox />
+            <div>
+                <FeaturedBox />
+            </div>
         </div>
     )
 }

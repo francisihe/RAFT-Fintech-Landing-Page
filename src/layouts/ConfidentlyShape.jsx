@@ -2,7 +2,7 @@ import ConfidentlyShapeCards from "../components/ui/ConfidentlyShapeCards"
 
 const ConfidentlyShape = () => {
     return (
-        <div className="max-w-screen-lg lg:max-w-screen-2xl lg:mx-60">
+        <div className="max-w-screen-lg lg:max-w-screen-2xl lg:mx-auto">
             <div className="mx-14 my-16 text-left max-w-2xl">
                 <div>
                     <h2 className="text-white tracking-wide text-5xl">

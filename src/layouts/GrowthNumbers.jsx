@@ -2,8 +2,8 @@ import growthImage from '../assets/images/section-image-3.svg'
 
 const GrowthNumbers = () => {
     return (
-        <div>
-            <div className="max-w-screen-lg lg:max-w-screen-2xl lg:mx-60 px-14 ">
+        <div className='w-screen'>
+            <div className="max-w-screen-lg lg:max-w-screen-2xl lg:mx-auto px-14 ">
                 <div className="flex justify-between text-white text-center py-16 max-w-full">
                     <div>
                         <div className="font-medium text-6xl mb-2">50+</div>

@@ -2,7 +2,7 @@ import debitCard from '../assets/images/debit-card.svg'
 
 const IntroducingCards = () => {
     return (
-        <div className='mb-20'>
+        <div className='mb-20 w-screen'>
             <div className="mx-auto my-28 text-center max-w-2xl">
 
                 <div className='text-custom-green-2'>
@@ -26,7 +26,7 @@ const IntroducingCards = () => {
 
             </div>
 
-            <div className='md:mx-14 lg:mx-60 lg:max-w-screen-xl'>
+            <div className='md:mx-14 lg:mx-60 lg:max-w-screen-2xl'>
                 <div className='flex justify-between text-white'>
                     <div className='w-1/3'>
                         <div className='flex gap-1'>
