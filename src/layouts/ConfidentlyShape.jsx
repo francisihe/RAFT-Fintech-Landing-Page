@@ -20,6 +20,7 @@ const ConfidentlyShape = () => {
             <div className="max-w-screen-lg lg:max-w-screen-2xl px-14 mx-auto">
                 <ConfidentlyShapeCards />
             </div>
+
         </div>
     )
 }
