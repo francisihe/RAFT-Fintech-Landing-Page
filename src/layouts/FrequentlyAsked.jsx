@@ -11,7 +11,7 @@ const FrequentlyAsked = () => {
             </div>
 
             <div>
-
+                
             </div>
         </div>
     )

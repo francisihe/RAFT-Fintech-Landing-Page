@@ -6,12 +6,12 @@ const TestimonialCard = ({testimonial, name, img}) => {
         <div className="font-normal text-lg bg-transparent">
             {testimonial} 
         </div>
-        <div className="flex justify-center bg-transparent">
-            <div className="w-2/3 m-auto bg-transparent">
+        <div className="flex justify-between bg-transparent">
+            <div className="my-auto bg-transparent ">
                 <div className="font-bold bg-transparent">{name}</div>
                 <div className="text-xs bg-transparent">Happy RAFT User</div>
             </div>
-            <div className="w-1/3 bg-transparent">
+            <div className="bg-transparent px-2">
                 <img src={img} className="h-16 bg-transparent"/>
             </div>
         </div>
